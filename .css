@@ -183,3 +183,46 @@
     margin-top: 10px;
     font-size: 18px;
   }
+/Contact/
+  
+  #contact {
+    padding: 50px 20px;
+    background-color: #fafafa;
+    text-align: center;
+    background-image: url(images/WhatsApp\ Image\ 2024-11-13\ at\ 18.39.17_82635205.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #f57c00;
+    color: #fff;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #ff9800;
+  }
