@@ -150,3 +150,36 @@
   .service-item p {
     font-size: 16px;
   }
+/*Galler Section*/
+  #gallery {
+    padding: 50px 20px;
+    background-color: rgb(223, 220, 220);
+    text-align: center;
+  }
+  
+  #gallery h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .gallery-item p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
